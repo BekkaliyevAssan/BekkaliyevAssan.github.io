@@ -1,1 +1,53 @@
-Hello World
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src='./script.js'></script>
+        <meta charset="utf-8"/>
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <title>Qosymsha</title>
+    </head>
+    <body>
+        <div class='landpage'>
+            <div class="header"><img class="header_logo" src="./assets/Qosymsha.png" alt=""></div>
+            <div class="landing">
+                <img class="landing_image" src="./assets/landpage.png" alt="">
+                <!-- <button class="landing_button">попробовать</button> -->
+                <div class="inputs">
+                        <input id="input" class="inputs_call" type="text" placeholder="контактный номер">
+                    
+                        <button class="inputs_button" id="button" onclick="show()">оставить заявку</button>
+                </div>
+            </div>
+            <div class="cards">
+            
+            <div class="card">
+                <img class="card_image" src="./assets/1.png" alt="">
+                <p class="card_text">оставь контактный номер</p>
+            </div>
+
+            <div class="card">
+                    <img class="card_image" src="./assets/2.png" alt="">
+                    <p class="card_text">укажи тему проекта или теста</p>
+            </div>
+
+            <div class="card">
+                        <img class="card_image" src="./assets/3.png" alt="">
+                        <p class="card_text">назначь дату и время дедлайна</p>
+            </div>
+            
+            </div>
+
+            
+        </div>
+
+        <div class="modal" id="modal_id">
+            <div class="modal_content">
+                <img src="./assets/modal.png" alt="">
+                <div class="=modal_content__but">
+                <button onclick="hide()" class="modal_content__button">oк</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
