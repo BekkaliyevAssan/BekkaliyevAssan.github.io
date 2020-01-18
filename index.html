@@ -4,6 +4,10 @@
         <script type="text/javascript" src='./script.js'></script>
         <meta charset="utf-8"/>
         <script src="js/jquery-3.1.1.min.js"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="./telegramform/js/telegramform.js"></script>
+
         <link rel="stylesheet" href="style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
         <title>Qosymsha</title>
@@ -15,9 +19,12 @@
                 <img class="landing_image" src="./assets/landpage.png" alt="">
                 <!-- <button class="landing_button">попробовать</button> -->
                 <div class="inputs">
-                        <input id="input" class="inputs_call" type="text" placeholder="контактный номер">
                     
+                    <form action="" method="POST">
+                        <input id="input" class="inputs_call" type="text" placeholder="контактный номер">
                         <button class="inputs_button" id="button" onclick="show()">оставить заявку</button>
+                    </form> 
+                    
                 </div>
             </div>
             <div class="cards">
